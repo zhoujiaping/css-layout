@@ -1,0 +1,40 @@
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+}
+.container{
+	width:40%;
+	height:30%;
+	background-color:orange;
+	margin: auto;  
+  position: absolute;  
+  top: 0; bottom: 0; right: 0;left:0;
+  
+  display:flex;
+  flex-direction: column;
+   flex-wrap: row wrap;
+}
+.container div.title{
+	border:1px solid red;
+	height:50px;
+	margin:20px 20px 10px 20px;
+}
+.container ul.content{
+	border:1px solid grey;
+	 flex-grow:1;
+	 margin:10px 20px 20px 20px;
+	 padding-left:10px;
+}
+ul.content>li{
+	list-style-type: none;
+	display:inline-block;
+	border:1px solid gray;
+	margin:5px 5px 0px 0px;
+}

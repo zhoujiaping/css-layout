@@ -1,0 +1,36 @@
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	padding:8px;
+}
+.container{
+	width:100%;
+	height:100%;
+	background-color:orange;
+	
+}
+
+.container .title{
+	position:relative;
+	margin-top:-100px;
+	border:1px solid red;
+	height:100px;
+	width:100%;
+}
+.container .content{
+	border:1px solid grey;
+	height:100%;
+	margin:100px;
+}
+
+.nav{
+}
+.main-content{
+}

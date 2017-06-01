@@ -1,0 +1,24 @@
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+}
+.container{
+	width:40%;
+	height:30%;
+	background-color:orange;
+	margin: auto;  
+  position: absolute;  
+  top: 0; bottom: 0; right: 0;left:0;
+}
+.text{
+	padding:10px;
+	border:solid 1px orangered;
+	height:400px;
+}

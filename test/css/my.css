@@ -1,0 +1,69 @@
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	padding:8px;
+}
+.container{
+	background-color:orange;
+	
+  	padding-top:50px;
+}
+
+.container .title{
+	position:relative;
+	margin-top:-50px;
+	border:1px solid red;
+	height:50px;
+	width:100%;
+}
+.container .content{
+	border:1px solid grey;
+	height:100%;
+	
+	padding-left:200px;
+}
+
+.nav{
+	width:200px;
+	margin-left:-200px;
+	/*height:100%;*/
+	border:1px solid black;
+	display: inline-block;
+}
+.main-content{
+	/*height:100%;*/
+	border:1px solid black;
+	width:100%;
+	display: inline-block;
+}
+@media only screen and (min-height: 1000px) {/*无滚动条*/
+	.container{
+		width:100%;
+		height:100%;
+	}
+	.nav{
+		height:100%;
+	}
+	.main-content{
+		height:100%;
+	}
+}
+@media only screen and (max-height: 1000px) {/*有滚动条*/
+	.container{
+		width:100%;
+		height:1000px;
+	}
+	.nav{
+		height:950px;
+	}
+	.main-content{
+		height:950px;
+	}
+}
